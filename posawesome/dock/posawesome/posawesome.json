@@ -1,0 +1,24 @@
+{
+ "app": "posawesome",
+ "creation": "2026-10-24 12:00:00",
+ "docstatus": 0,
+ "doctype": "Dock",
+ "idx": 0,
+ "items": [
+  {
+   "added": 0,
+   "hidden": 0,
+   "icon": "receipt-card-soft",
+   "link_to": "POS Awesome",
+   "link_type": "Workspace",
+   "title": "POS Awesome"
+  }
+ ],
+ "modified": "2026-10-24 12:00:00.000000",
+ "modified_by": "Administrator",
+ "mount_on": "erpnext",
+ "name": "posawesome",
+ "owner": "Administrator",
+ "standard": 1,
+ "user": ""
+}
