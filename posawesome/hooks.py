@@ -10,6 +10,18 @@ app_url = "https://github.com/defendicon/POS-Awesome-V15"
 app_source_link = "https://github.com/defendicon/POS-Awesome-V15"
 source_link = "https://github.com/defendicon/POS-Awesome-V15"
 
+# Tile on the /desk Apps screen (Frappe 16.5x navigation); the app's rail is its Dock record.
+add_to_apps_screen = [
+    {
+        "name": "posawesome",
+        "logo": "/assets/posawesome/images/posawesome-logo.svg",
+        "title": "POS Awesome",
+        "route": "/desk/pos-awesome",
+        "sequence_id": 3,
+    }
+]
+
+
 # POS Awesome extends ERPNext heavily (custom fields, controller overrides,
 # and many `from erpnext...` imports). Declare the hard dependency so bench
 # installs/loads ERPNext first and refuses to install without it.
